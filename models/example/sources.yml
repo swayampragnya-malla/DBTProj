@@ -1,0 +1,7 @@
+sources:
+  - name: DBT   
+    schema: public    
+    tables:
+      - name: countries
+      - name: customers
+      - name: departments

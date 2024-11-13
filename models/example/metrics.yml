@@ -1,0 +1,72 @@
+version: 2
+
+models:
+  - name: countries            
+    description: "Countries table"
+    columns:
+      - name: country_id        
+        description: "Unique identifier for each country"
+        meta:
+          dimension: {}
+      - name: country_code
+        description: "country code"
+        meta:
+          dimension: {}
+      - name: country
+        description: "Name of the country"
+        meta:
+           dimension: {}
+
+
+  - name: customers
+    description: "Customers table"
+    columns:
+      - name: customer_id       
+      
+        description: "Unique identifier for each customer"
+        meta:
+          dimension: {}
+      - name: first_name
+        description: "first name of the customer"
+        meta:
+          dimension: {}
+
+      - name: last_name
+        description: "Last name of the customer"
+        meta: 
+           dimension: {}
+      - name: email
+        description: "email adress of the customer"
+        meta:
+           dimension: {}
+      - name: street
+        description: "street adress of customer"
+        meta: 
+           dimension: {}
+      - name: credit_provider
+        description: "customer's credit provider"
+        meta:
+           dimension: {}
+      
+      - name: four_digit
+        description: "adress code of customer "
+        meta:
+           dimension: {}
+
+      - name: country_id
+        description: "Unique identifier for each country"
+        meta:
+           dimension: {}
+
+
+  - name: departments
+    description: "Departments table"
+    columns:
+      - name: department_id      
+        description: "Unique identifier for each department"
+        meta:
+          dimension: {}
+      - name: department
+        description: "Name of the department"
+        meta:
+          dimension: {}
