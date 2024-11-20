@@ -1,0 +1,13 @@
+dbtproj3:
+  outputs:
+    dev:
+      dbname: postgres
+      host: localhost
+      pass: newpassword
+      port: 5432
+      schema: DBTSchema
+      threads: 1
+      type: postgres
+      user: postgres
+      sslmode: disable
+  target: dev
